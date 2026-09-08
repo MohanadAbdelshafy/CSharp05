@@ -7,6 +7,9 @@
     #region Question 2 Internal feild
     //internal int copiesInStock = 5;
     #endregion
+    #region Question 3 Public feild
+    //public string Title;
+    #endregion
     //}
     #endregion
     internal class Program
@@ -22,6 +25,11 @@
             //Book b = new Book();
             //Console.WriteLine(b.copiesInStock);
             ////yes it does,Because the internal feild is accessible trhought the same assembly 
+            #endregion
+            #region Question 3
+            //Book b=new Book();
+            //b.Title = "Mohanad";
+            //Console.WriteLine(b.Title);
             #endregion
         }
     }
