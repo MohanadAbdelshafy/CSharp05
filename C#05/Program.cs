@@ -60,6 +60,11 @@
             //string gtext = genre.ToString();
             //Console.WriteLine(gtext);
             #endregion
+            #region Question 8
+            //string genreText = "Science";
+            //Genre g = (Genre)Enum.Parse(typeof(Gener),genreText);
+            //Console.WriteLine(g);
+            #endregion
         }
     }
 }
