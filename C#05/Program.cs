@@ -10,6 +10,15 @@
     #region Question 3 Public feild
     //public string Title;
     #endregion
+    #region Question 4 Enum property
+    //public Genre Genre { get; set; }
+    #endregion
+    //}
+    #endregion
+    #region Question 4 Enum
+    //enum Genre
+    //{
+    //    Fiction,NonFiction, Science
     //}
     #endregion
     internal class Program
@@ -30,6 +39,11 @@
             //Book b=new Book();
             //b.Title = "Mohanad";
             //Console.WriteLine(b.Title);
+            #endregion
+            #region Question 4
+            //Book b = new Book();
+            //b.Genre = Genre.Science;
+            //Console.WriteLine(b.Genre);
             #endregion
         }
     }
