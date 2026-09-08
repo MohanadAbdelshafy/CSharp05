@@ -4,6 +4,9 @@
     //class Book
     //{
     //    private string password = "secret";
+    #region Question 2 Internal feild
+    //internal int copiesInStock = 5;
+    #endregion
     //}
     #endregion
     internal class Program
@@ -14,6 +17,11 @@
             //Book b = new Book();
             //Console.WriteLine(b.password);
             ////compile time error,because the password feild is protected (can't access outside the class) 
+            #endregion
+            #region Question 2
+            //Book b = new Book();
+            //Console.WriteLine(b.copiesInStock);
+            ////yes it does,Because the internal feild is accessible trhought the same assembly 
             #endregion
         }
     }
